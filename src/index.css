@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700&family=Lexend+Deca&display=swap");
 
 * {
   margin: 0;
@@ -26,102 +26,109 @@ body {
   flex-direction: row;
   width: 60vw;
   border-radius: 5px;
-  background-color:hsl(184, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
 }
 
-.container div:first-child{
+.container div:first-child {
   background-color: hsl(31, 77%, 52%);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.container div:last-child{
+.container div:last-child {
   background-color: hsl(179, 100%, 13%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.sedans, .suvs, .luxury{
+.sedans,
+.suvs,
+.luxury {
   flex: 33%;
   padding: 50px;
-  color:white;
+  color: white;
   height: 65vh;
 }
 
-.sedans div:first-child,.suvs div:first-child,.luxury div:first-child{
+.sedans div:first-child,
+.suvs div:first-child,
+.luxury div:first-child {
   background-repeat: no-repeat;
   height: 40px;
   width: 64px;
   background: transparent;
 }
 
-.sedans div:last-child,.suvs div:last-child,.luxury div:last-child{
+.sedans div:last-child,
+.suvs div:last-child,
+.luxury div:last-child {
   width: 100%;
   text-align: left;
   background: transparent;
 }
 
-.sedans div:first-child{
-  background-image: url('./assets//icon-sedans.svg');
+.sedans div:first-child {
+  background-image: url("./assets//icon-sedans.svg");
 }
 
-.suvs div:first-child{
-  background-image: url('./assets//icon-suvs.svg');
+.suvs div:first-child {
+  background-image: url("./assets//icon-suvs.svg");
 }
 
-.luxury div:first-child{
-  background-image: url('./assets//icon-luxury.svg');
+.luxury div:first-child {
+  background-image: url("./assets//icon-luxury.svg");
 }
 
-.heading{
+.heading {
   margin: 15% 0;
   text-transform: uppercase;
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
 }
 
-.description{
+.description {
   margin: 20% 0 50% 0;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: lighter;
 }
 
-@media(max-width:1080px)
-{
-    .container{
-        flex-direction: column;
-        margin:40px 20px !important;
-        width: 90vw !important;
-        align-self: stretch;
-        border-radius: 5px;
-    }
-    
-    .sedans, .suvs, .luxury{
-      flex: 33%;
-      padding: 60px !important;
-      color:white;
-      height: 53vh;
-    }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 40px 20px !important;
+    width: 90vw !important;
+    align-self: stretch;
+    border-radius: 5px;
+  }
 
-    .container div:first-child{
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-    }
-    
-    .container div:last-child{
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-    }
+  .sedans,
+  .suvs,
+  .luxury {
+    flex: 33%;
+    padding: 60px !important;
+    color: white;
+    height: 53vh;
+  }
 
-    .heading{
-      margin: 10% 0 !important;
-    }
-    
-    .description{
-      margin: 10% 0 25% 0 !important;
-    }
+  .container div:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .container div:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .heading {
+    margin: 10% 0 !important;
+  }
+
+  .description {
+    margin: 10% 0 25% 0 !important;
+  }
 }
 
-.button{
+.button {
   width: 75%;
   height: 40px;
   border-radius: 20px;
@@ -131,19 +138,19 @@ body {
   cursor: pointer;
 }
 
-.button:hover{
-  background:white;
+.button:hover {
+  background: white;
 }
 
-.sedansButton:hover{
-  color:hsl(31, 77%, 52%);
+.sedansButton:hover {
+  color: hsl(31, 77%, 52%);
 }
 
-.suvsButton:hover{
-  color:hsl(184, 100%, 22%);
+.suvsButton:hover {
+  color: hsl(184, 100%, 22%);
 }
 
-.luxuryButton:hover{
+.luxuryButton:hover {
   color: hsl(179, 100%, 13%);
 }
 
